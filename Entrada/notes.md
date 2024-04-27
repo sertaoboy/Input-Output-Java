@@ -35,7 +35,7 @@ BufferedReader br = new BufferedReader(isr);
 - Quando se trabalha com caracteres, e melhor usar `Reader/Writer` pois eles ja fazem a conversao de bytes para caracteres.
 - `Reader/Writer` sao mais lentos que `Stream`, pois fazem a conversao de bytes para caracteres.
 - Quando se trabalha com bytes, e melhor usar `Stream` pois sao mais rapidos.
-- <strong>Porem, ambas as classes tem algo em comum, elas sao "Readers"
+- <strong>Porem, ambas as classes tem algo em comum, elas sao "Readers"</strong>
 
 # Refatorando o codigo de uma maneira mais "generica"
 ```java
